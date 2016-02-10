@@ -38,7 +38,7 @@ Table of Contents
 This package can be installed through Composer.
 
 ``` bash
-composer require padosoft/@@@package
+composer require @@@vendor/@@@package_name
 ``` 
 You must install this service provider.
 
@@ -50,13 +50,12 @@ You must install this service provider.
     ...
 ];
 ```
-You don't need to register the command in app/Console/Kernel.php, because it provides by ComposerSecurtyCheckServiceProvider register() method.
 
 You can publish the config file of this package with this command:
 ``` bash
 php artisan vendor:publish --provider="Padosoft\@@@namespace\@@@provider"
 ```
-The following config file will be published in `config/@@@package.php`
+The following config file will be published in `config/@@@package_name.php`
 ``` php
 
 ```
@@ -83,12 +82,12 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 
 # Security
 
-If you discover any security related issues, please email :author_email instead of using the issue tracker.
+If you discover any security related issues, please email  instead of using the issue tracker.
 
 # Credits
 
-- [Lorenzo Padovani](https://github.com/lopadova)
-- [All contributors](https://github.com/thephpleague/skeleton/contributors)
+- [Padosoft](https://github.com/padosoft)
+- [All contributors](https://github.com/@@@vendor/@@@package_name/contributors)
 
 # About Padosoft
 Padosoft is a software house based in Florence, Italy. Specialized in E-commerce and web sites.
@@ -97,20 +96,20 @@ Padosoft is a software house based in Florence, Italy. Specialized in E-commerce
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/padosoft/@@@package.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/@@@vendor/@@@package_name.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/padosoft/@@@package/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/padosoft/@@@package.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/padosoft/@@@package.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/padosoft/@@@package.svg?style=flat-square
-[ico-sensiolab]: https://insight.sensiolabs.com/projects/******/small.png
+[ico-travis]: https://img.shields.io/travis/@@@vendor/@@@package_name/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/@@@vendor/@@@package_name.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/@@@vendor/@@@package_name.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/@@@vendor/@@@package_name.svg?style=flat-square
+[ico-sensiolab]: https://insight.sensiolabs.com/projects/@@@sensiolab/small.png
 
-[link-packagist]: https://packagist.org/packages/padosoft/@@@package
-[link-travis]: https://travis-ci.org/padosoft/@@@package
-[link-scrutinizer]: https://scrutinizer-ci.com/g/padosoft/@@@package/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/padosoft/@@@package
-[link-downloads]: https://packagist.org/packages/padosoft/@@@package
-[link-sensiolab]: https://insight.sensiolabs.com/projects/******
-[link-author]: https://github.com/lopadova
-[link-contributors]: ../../contributors
+[link-packagist]: https://packagist.org/packages/@@@vendor/@@@package_name
+[link-travis]: https://travis-ci.org/@@@vendor/@@@package_name
+[link-scrutinizer]: https://scrutinizer-ci.com/g/@@@vendor/@@@package_name/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/@@@vendor/@@@package_name
+[link-downloads]: https://packagist.org/packages/@@@vendor/@@@package_name
+[link-sensiolab]: https://insight.sensiolabs.com/projects/@@@sensiolabs
+
+
 

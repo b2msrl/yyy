@@ -1,6 +1,6 @@
 {
-    "name": "padosoft/@@@package",
-    "description": "@@@description",
+    "name": "@@@vendor/@@@package_name",
+    "description": "@@@package_description",
     "keywords": [@@@keywords],
     "license": "MIT",
     "type": "project",
