@@ -1,5 +1,6 @@
-# laravel5.2.x-package-skeleton
-Padosoft Laravel 5.2.x Packages Skeleton
+## WORK IN PROGRESS
+# @@@package-name
+@@@descr
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -9,19 +10,17 @@ Padosoft Laravel 5.2.x Packages Skeleton
 [![Total Downloads][ico-downloads]][link-downloads]
 [![SensioLabsInsight][ico-sensiolab]][link-sensiolab]
 
-
-
 Table of Contents
 =================
 
-  * [LARAVEL ******](#******)
+  * [@@@package-name](#@@@package-name)
   * [Table of Contents](#table-of-contents)
-  * [PREREQUISITES](#prerequisites)
-    * [INSTALL](#install)
-    * [USAGE](#usage)
-      * [EXAMPLE:](#example)
-    * [SCHEDULE COMMAND](#schedule-command)
-    * [SCREENSHOOTS](#screenshoots)
+  * [Prerequisites](#prerequisites)
+  * [Install](#install)
+  * [Usage](#usage)
+  * [Example](#example)
+  * [Screenshots](#screenshots)
+  * [Change Log](#change-log)
   * [Testing](#testing)
   * [Contributing](#contributing)
   * [Security](#security)
@@ -29,17 +28,15 @@ Table of Contents
   * [About Padosoft](#about-padosoft)
   * [License](#license)
 
-  
-# PREREQUISITES
+# Prerequisites
 
-
-## INSTALL
+# Install
 
 This package can be installed through Composer.
 
 ``` bash
 composer require @@@vendor/@@@package_name
-``` 
+```
 You must install this service provider.
 
 ``` php
@@ -57,24 +54,21 @@ php artisan vendor:publish --provider="Padosoft\@@@namespace\@@@provider"
 ```
 The following config file will be published in `config/@@@package_name.php`
 ``` php
+[
 
+]
 ```
 
-## USAGE
+# Usage
 
-When the installation is done you can easily run command to print help:
+## Example
 
+# Screenshots
 
-### EXAMPLE:
+# Change Log
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
 
-
-
-## SCHEDULE COMMAND
-
-
-
-## SCREENSHOOTS
-
+# Testing
 
 # Contributing
 
@@ -87,7 +81,7 @@ If you discover any security related issues, please email  instead of using the 
 # Credits
 
 - [Padosoft](https://github.com/padosoft)
-- [All contributors](https://github.com/@@@vendor/@@@package_name/contributors)
+- [All Contributors](../../contributors)
 
 # About Padosoft
 Padosoft is a software house based in Florence, Italy. Specialized in E-commerce and web sites.
@@ -95,6 +89,7 @@ Padosoft is a software house based in Florence, Italy. Specialized in E-commerce
 # License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
 
 [ico-version]: https://img.shields.io/packagist/v/@@@vendor/@@@package_name.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
@@ -110,6 +105,3 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-code-quality]: https://scrutinizer-ci.com/g/@@@vendor/@@@package_name
 [link-downloads]: https://packagist.org/packages/@@@vendor/@@@package_name
 [link-sensiolab]: https://insight.sensiolabs.com/projects/@@@sensiolabs
-
-
-
