@@ -24,6 +24,7 @@ Table of Contents
   * [Testing](#testing)
   * [Contributing](#contributing)
   * [Security](#security)
+  * [API Documentation](#api-documentation)
   * [Credits](#credits)
   * [About Padosoft](#about-padosoft)
   * [License](#license)
@@ -77,6 +78,10 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details
 # Security
 
 If you discover any security related issues, please email  instead of using the issue tracker.
+
+# API Documentation
+
+Please see API documentation at http://padosoft.github.io/@@@package-name
 
 # Credits
 
