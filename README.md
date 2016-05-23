@@ -44,14 +44,14 @@ You must install this service provider.
 // config/app.php
 'provider' => [
     ...
-    Padosoft\@@@namespace\@@@provider::class,
+    @@@namespacevendor\@@@namespacepackage_name\@@@providerpackage_nameServiceProvider::class,
     ...
 ];
 ```
 
 You can publish the config file of this package with this command:
 ``` bash
-php artisan vendor:publish --provider="Padosoft\@@@namespace\@@@provider"
+php artisan vendor:publish --provider="@@@namespacevendor\@@@namespacepackage_name\@@@providerpackage_nameServiceProvider"
 ```
 The following config file will be published in `config/@@@package_name.php`
 ``` php
@@ -109,4 +109,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-scrutinizer]: https://scrutinizer-ci.com/g/@@@vendor/@@@package_name/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/@@@vendor/@@@package_name
 [link-downloads]: https://packagist.org/packages/@@@vendor/@@@package_name
+// TODO : @@@sensiolabs
 [link-sensiolab]: https://insight.sensiolabs.com/projects/@@@sensiolabs

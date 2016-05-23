@@ -34,12 +34,15 @@ before_install:
   - composer self-update
   - composer create-project laravel/laravel:$LARAVEL_VERSION
   - cd ./laravel
-  - composer config repositories.padosoft git https://github.com/@@@vendor/@@@package_name
+  - composer require padosoft/test
+  - composer require padosoft/laravel-test
+  #- composer config repositories.padosoft git https://github.com/@@@vendor/@@@package_name
   - composer require @@@vendor/@@@package_name dev-master
   - if [[ $LARAVEL_VERSION == '5.0' ]]; then composer require mockery/mockery; fi
   - chmod 777 -R ./
-  - ./vendor/@@@vendor/@@@package_name/tests/config/@@@shell1
+  - ./vendor/padosoft/laravel-composer-security/tests/config/sedCommand.sh
   - composer update
+  - ./vendor/padosoft/laravel-composer-security/tests/config/sedCommandProvider.sh
   - rm ./.env
   - cp ./vendor/@@@vendor/@@@package_name/tests/config/.env.dist ./.env
   - php artisan vendor:publish
