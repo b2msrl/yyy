@@ -1,6 +1,6 @@
 ## WORK IN PROGRESS
-# @@@package-name
-@@@descr
+# @@@package_name
+@@@package_description
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -13,7 +13,7 @@
 Table of Contents
 =================
 
-  * [@@@package-name](#@@@package-name)
+  * [@@@package_name](#@@@package_name)
   * [Table of Contents](#table-of-contents)
   * [Prerequisites](#prerequisites)
   * [Install](#install)
@@ -81,7 +81,7 @@ If you discover any security related issues, please email  instead of using the 
 
 # API Documentation
 
-Please see API documentation at http://padosoft.github.io/@@@package-name
+Please see API documentation at http://padosoft.github.io/@@@package_name
 
 # Credits
 
