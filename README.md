@@ -81,7 +81,7 @@ If you discover any security related issues, please email  instead of using the 
 
 # API Documentation
 
-Please see API documentation at http://padosoft.github.io/@@@package_name
+Please see API documentation at http://@@@organization.github.io/@@@package_name
 
 # Credits
 
